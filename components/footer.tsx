@@ -13,12 +13,9 @@ import Link from 'next/link'
 const Footer: React.FunctionComponent = () => {
   const year = new Date().getFullYear()
   return <footer className={styles.footer}>
-    <div>
-      <Link href="/web/cgu">Conditions générales d'utilisation</Link>
-    </div>
     <div className={styles.contentinfo}>
       <p>©{year} Recipes App</p>
-      <Link href="mailto:drucilladeroche@proton.me">Drucilla Deroche</Link> 
+      <Link href="mailto:drucilla.webapps24@gmail.com">WebApps24</Link> 
       <p>Tous droits réservés</p>
     </div>
   </footer>

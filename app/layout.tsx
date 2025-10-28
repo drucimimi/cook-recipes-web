@@ -9,17 +9,17 @@ export const metadata: Metadata = {
     template: '%s | Recipes App',
     default: "Recipes App",
   },
-  description: "Découvrir et/ou créer des recettes de cuisine",
+  description: "Découvrir et/ou gérer des recettes de cuisine",
   icons: {
     icon: '/images/favicon.ico',
   },
-  keywords: ['Recipes App', 'Nextjs', 'REST API'],
+  keywords: ['Cook Recipes App', 'Nextjs'],
   authors: [{ name: 'Drucilla' }, { name: 'Deroche', url: 'https://drucilla-deroche.vercel.app' }],
-  metadataBase: new URL('https://recipes-app.webapps24.eu'),
+  metadataBase: new URL('https://cook-recipes-app.webapps24.eu'),
   openGraph: {
     title: 'Recipes App',
-    description: 'Découvrir et/ou créer, supprimer des recettes de cuisine',
-    url: 'https://recipes-app.webapps24.eu',
+    description: 'Découvrir et/ou créer, générer, mdofifier, supprimer des recettes de cuisine',
+    url: 'https://cook-recipes-app.webapps24.eu',
     siteName: 'Recipes App',
     images: '/images/og-image.png',
     locale: 'fr_FR',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     title: 'Recipes App',
-    description: 'Découvrir et/ou créer, supprimer des recettes de cuisine',
+    description: 'Découvrir et/ou créer, générer, mdofifier, supprimer des recettes de cuisine',
     images: '/images/og-image.png',
   },
 }

@@ -4,9 +4,8 @@ export default function robots(): MetadataRoute.Robots {
   return {
     rules: {
       userAgent: '*',
-      allow: '/',
-      disallow: '/web/protected',
+      allow: '/'
     },
-    sitemap: 'https://recipes-app.webapps24.eu/sitemap.xml',
+    sitemap: 'https://cook-recipes-app.webapps24.eu/sitemap.xml',
   };
 }

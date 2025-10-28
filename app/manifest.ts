@@ -2,9 +2,9 @@ import type { MetadataRoute } from 'next';
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'Recipes App',
-    short_name: 'Recipes App',
-    description: 'Découvrir et/ou créer, supprimer des recettes de cuisine',
+    name: 'Cook Recipes App',
+    short_name: 'Cook Recipes App',
+    description: 'Découvrir et/ou créer, générer modifier, supprimer des recettes de cuisine',
     start_url: '/',
     display: 'standalone',
     background_color: '#000000',
